@@ -290,3 +290,22 @@
   new PureCounter();
 
 })()
+
+/*Botón de música*/
+
+const musicControlBtn = document.getElementById('music-control-btn');
+const backgroundMusic = document.getElementById('background-music');
+
+let isPlaying = false;
+
+musicControlBtn.addEventListener('click', function() {
+  if (isPlaying) {
+    backgroundMusic.pause();
+    isPlaying = false;
+    musicControlBtn.classList.remove('playing');
+  } else {
+    backgroundMusic.play();
+    isPlaying = true;
+    musicControlBtn.classList.add('playing');
+  }
+});
