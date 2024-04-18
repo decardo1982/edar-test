@@ -1577,18 +1577,18 @@ section {
 /* Botón de música*/
 
 .music-control-btn {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: #fff;
-  border: 2px solid #000;
+  border: 2px solid #ffc451;
   position: relative;
   cursor: pointer;
 }
 
 .music-control-btn::after {
   content: '▶'; /* Símbolo de reproducción */
-  font-size: 24px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
