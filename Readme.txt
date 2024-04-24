@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+Transporte EDAR S.A.
 
-Template Name: Gp
-Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Página web institucional de una de las empresas de transporte líder en cargas refrigeradas y congeladas.
+
